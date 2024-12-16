@@ -1,0 +1,2 @@
+var t=document.getElementsByClassName("wall")[0],e=document.getElementsByClassName("spider")[0],a=t.getBoundingClientRect(),h=e.getBoundingClientRect(),i=a.left+a.width/2-h.width/2,l=a.top+a.height/2-h.height/2,n=Math.max(a.left,Math.min(i,a.right-h.width)),o=Math.max(a.top,Math.min(l,a.bottom-h.height));e.style.left="".concat(n-a.left,"px"),e.style.top="".concat(o-a.top,"px");
+//# sourceMappingURL=index.1efa2711.js.map
